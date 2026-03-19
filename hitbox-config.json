@@ -1,0 +1,207 @@
+{
+  "hitboxes": [
+    {
+      "modelClass": "com.noiprocs.core.model.mob.character.PlayerModel",
+      "height": 300,
+      "width": 300,
+      "category": "PLAYER",
+      "mask": ["WALL", "MOB"]
+    },
+    {
+      "modelClass": "com.noiprocs.gameplay.model.mob.GoblinModel",
+      "height": 300,
+      "width": 300,
+      "category": "MOB",
+      "mask": ["WALL", "PLAYER", "MOB"]
+    },
+    {
+      "modelClass": "com.noiprocs.gameplay.model.mob.CotMobModel",
+      "height": 400,
+      "width": 400,
+      "category": "MOB",
+      "mask": ["WALL", "PLAYER", "MOB"]
+    },
+    {
+      "modelClass": "com.noiprocs.gameplay.model.plant.TreeModel",
+      "height": 600,
+      "width": 600,
+      "category": "WALL",
+      "mask": ["WALL"]
+    },
+    {
+      "key": "YoungTreeHitbox",
+      "height": 400,
+      "width": 400,
+      "category": "WALL",
+      "mask": ["WALL"]
+    },
+    {
+      "modelClasses": [
+        "com.noiprocs.gameplay.model.plant.PineTreeModel",
+        "com.noiprocs.gameplay.model.plant.BirchTreeModel",
+        "com.noiprocs.gameplay.model.plant.CoconutTreeModel"
+      ],
+      "height": 500,
+      "width": 500,
+      "category": "WALL",
+      "mask": ["WALL"]
+    },
+    {
+      "modelClass": "com.noiprocs.gameplay.model.environment.WorldBoundaryVerticalModel",
+      "height": 4000,
+      "width": 100,
+      "category": "WALL",
+      "mask": ["WALL"]
+    },
+    {
+      "modelClass": "com.noiprocs.gameplay.model.environment.WorldBoundaryHorizontalModel",
+      "height": 100,
+      "width": 6000,
+      "category": "WALL",
+      "mask": ["WALL"]
+    },
+    {
+      "modelClass": "com.noiprocs.gameplay.model.building.FenceModel",
+      "height": 400,
+      "width": 400,
+      "category": "WALL",
+      "mask": ["WALL"]
+    },
+    {
+      "modelClasses": [
+        "com.noiprocs.gameplay.model.item.WoodLogItem",
+        "com.noiprocs.gameplay.model.item.SaplingItem",
+        "com.noiprocs.gameplay.model.item.AppleItem",
+        "com.noiprocs.gameplay.model.item.PebbleItem",
+        "com.noiprocs.gameplay.model.item.WaterBottleItem",
+        "com.noiprocs.gameplay.model.item.MysteriousGemItem",
+        "com.noiprocs.gameplay.model.item.GoldCoinItem",
+        "com.noiprocs.gameplay.model.item.CoconutItem",
+        "com.noiprocs.gameplay.model.item.GunPowderItem"
+      ],
+      "height": 350,
+      "width": 350,
+      "category": "ITEM",
+      "mask": ["WALL"]
+    },
+    {
+      "modelClasses": [
+        "com.noiprocs.gameplay.model.item.SaplingItem"
+      ],
+      "height": 200,
+      "width": 200,
+      "category": "ITEM",
+      "mask": ["WALL"]
+    },
+    {
+      "modelClasses": [
+        "com.noiprocs.gameplay.model.item.TreeBranchItem"
+      ],
+      "height": 450,
+      "width": 200,
+      "category": "ITEM",
+      "mask": ["WALL"]
+    },
+    {
+      "modelClass": "com.noiprocs.gameplay.model.item.StoneAxeItem",
+      "height": 100,
+      "width": 300,
+      "category": "ITEM",
+      "mask": ["WALL"]
+    },
+    {
+      "modelClass": "com.noiprocs.gameplay.model.environment.BombTrapModel",
+      "height": 400,
+      "width": 400,
+      "category": "ITEM",
+      "mask": ["WALL"]
+    },
+    {
+      "modelClass": "com.noiprocs.gameplay.model.mob.projectile.BombModel",
+      "height": 450,
+      "width": 450,
+      "category": "PROJECTILE",
+      "mask": ["MASK_ALL"]
+    },
+    {
+      "modelClass": "com.noiprocs.gameplay.model.mob.projectile.FlyingWoodLogModel",
+      "height": 100,
+      "width": 100,
+      "category": "PROJECTILE",
+      "mask": ["MASK_ALL"]
+    },
+    {
+      "modelClass": "com.noiprocs.gameplay.model.mob.projectile.FlyingDartModel",
+      "height": 100,
+      "width": 100,
+      "category": "PROJECTILE",
+      "mask": ["MASK_ALL"]
+    },
+    {
+      "modelClass": "com.noiprocs.gameplay.model.mob.BombGoblinModel",
+      "height": 300,
+      "width": 300,
+      "category": "MOB",
+      "mask": ["WALL", "PLAYER", "MOB"]
+    },
+    {
+      "modelClass": "com.noiprocs.gameplay.model.mob.RangeGoblinModel",
+      "height": 300,
+      "width": 300,
+      "category": "MOB",
+      "mask": ["WALL", "PLAYER", "MOB"]
+    },
+    {
+      "modelClass": "com.noiprocs.gameplay.model.environment.ThickVineModel",
+      "height": "Config.MAZE_WALL_THICKNESS_HEIGHT",
+      "width": "Config.MAZE_WALL_THICKNESS_WIDTH",
+      "category": "WALL",
+      "mask": ["WALL", "PLAYER", "MOB"]
+    },
+    {
+      "modelClass": "com.noiprocs.gameplay.model.environment.BoulderModel",
+      "height": "Config.MAZE_WALL_THICKNESS_HEIGHT",
+      "width": "Config.MAZE_WALL_THICKNESS_WIDTH",
+      "category": "WALL",
+      "mask": ["WALL", "PLAYER", "MOB"]
+    },
+    {
+      "modelClass": "com.noiprocs.gameplay.model.environment.MazePartModel",
+      "height": "Config.MAZE_WALL_THICKNESS_HEIGHT",
+      "width": "Config.MAZE_WALL_THICKNESS_WIDTH",
+      "category": "WALL",
+      "mask": ["WALL", "PLAYER", "MOB", "PROJECTILE"]
+    },
+    {
+      "modelClass": "com.noiprocs.core.model.building.ChestModel",
+      "height": 500,
+      "width": 500,
+      "category": "WALL",
+      "mask": ["WALL"]
+    },
+    {
+      "modelClass": "com.noiprocs.gameplay.model.mob.character.GolemModel",
+      "height": 450,
+      "width": 450,
+      "category": "MOB",
+      "mask": ["WALL", "PLAYER", "MOB"]
+    },
+    {
+      "modelClass": "com.noiprocs.gameplay.model.building.IronHorseModel",
+      "height": 900,
+      "width": 900,
+      "category": "WALL",
+      "mask": ["WALL"]
+    },
+    {
+      "modelClasses": [
+        "com.noiprocs.gameplay.model.building.PortalModel",
+        "com.noiprocs.gameplay.model.building.MazeExitPortalModel"
+      ],
+      "height": 800,
+      "width": 800,
+      "category": "WALL",
+      "mask": ["WALL"]
+    }
+  ]
+}

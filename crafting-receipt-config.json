@@ -1,0 +1,134 @@
+{
+  "receipts": [
+    {
+      "targetItemClass": "com.noiprocs.gameplay.model.item.TreeBranchItem",
+      "targetAmount": 4,
+      "materials": [
+        {
+          "itemClass": "com.noiprocs.gameplay.model.item.WoodLogItem",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "targetItemClass": "com.noiprocs.gameplay.model.item.StoneAxeItem",
+      "targetAmount": 1,
+      "materials": [
+        {
+          "itemClass": "com.noiprocs.gameplay.model.item.TreeBranchItem",
+          "amount": 2
+        },
+        {
+          "itemClass": "com.noiprocs.gameplay.model.item.PebbleItem",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "targetItemClass": "com.noiprocs.gameplay.model.item.ChestItem",
+      "targetAmount": 1,
+      "materials": [
+        {
+          "itemClass": "com.noiprocs.gameplay.model.item.WoodLogItem",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "targetItemClass": "com.noiprocs.gameplay.model.item.FenceItem",
+      "targetAmount": 1,
+      "materials": [
+        {
+          "itemClass": "com.noiprocs.gameplay.model.item.TreeBranchItem",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "targetItemClass": "com.noiprocs.gameplay.model.item.CacaoPotionItem",
+      "targetAmount": 1,
+      "materials": [
+        {
+          "itemClass": "com.noiprocs.gameplay.model.item.WaterBottleItem",
+          "amount": 1
+        },
+        {
+          "itemClass": "com.noiprocs.gameplay.model.item.CacaoFruitItem",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "targetItemClass": "com.noiprocs.gameplay.model.item.SummonCotMobItem",
+      "targetAmount": 1,
+      "materials": [
+        {
+          "itemClass": "com.noiprocs.gameplay.model.item.SummonCotMobRecipe",
+          "amount": 1
+        },
+        {
+          "itemClass": "com.noiprocs.gameplay.model.item.AppleItem",
+          "amount": 10
+        },
+        {
+          "itemClass": "com.noiprocs.gameplay.model.item.WoodLogItem",
+          "amount": 2
+        },
+        {
+          "itemClass": "com.noiprocs.gameplay.model.item.TreeBranchItem",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "targetItemClass": "com.noiprocs.gameplay.model.item.SummonStoneGolemItem",
+      "targetAmount": 1,
+      "materials": [
+        {
+          "itemClass": "com.noiprocs.gameplay.model.item.SummonStoneGolemRecipe",
+          "amount": 1
+        },
+        {
+          "itemClass": "com.noiprocs.gameplay.model.item.PebbleItem",
+          "amount": 5
+        },
+        {
+          "itemClass": "com.noiprocs.gameplay.model.item.WoodLogItem",
+          "amount": 1
+        },
+        {
+          "itemClass": "com.noiprocs.gameplay.model.item.TreeBranchItem",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "targetItemClass": "com.noiprocs.gameplay.model.item.PickAxeItem",
+      "targetAmount": 1,
+      "materials": [
+        {
+          "itemClass": "com.noiprocs.gameplay.model.item.TreeBranchItem",
+          "amount": 2
+        },
+        {
+          "itemClass": "com.noiprocs.gameplay.model.item.PebbleItem",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "targetItemClass": "com.noiprocs.gameplay.model.item.BombItem",
+      "targetAmount": 1,
+      "materials": [
+        {
+          "itemClass": "com.noiprocs.gameplay.model.item.CoconutItem",
+          "amount": 1
+        },
+        {
+          "itemClass": "com.noiprocs.gameplay.model.item.GunPowderItem",
+          "amount": 2
+        }
+      ]
+    }
+  ]
+}

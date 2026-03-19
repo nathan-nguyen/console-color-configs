@@ -1,0 +1,491 @@
+{
+  "sprites": [
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.item.WoodLogItem"],
+      "textures": {
+        "default": {
+          "texture": ["="]
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.item.SaplingItem"],
+      "textures": {
+        "default": {
+          "texture": ["Y"],
+          "colorMap": ["g"]
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.item.AppleItem"],
+      "textures": {
+        "default": {
+          "texture": ["o"],
+          "colorMap": ["r"]
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.item.PebbleItem"],
+      "textures": {
+        "default": {
+          "texture": ["o"],
+          "colorMap": ["d"]
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.item.MysteriousGemItem"],
+      "textures": {
+        "default": {
+          "texture": ["◆"],
+          "colorMap": ["m"]
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.item.WaterBottleItem"],
+      "textures": {
+        "default": {
+          "texture": ["u"],
+          "colorMap": ["b"]
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.item.GoldCoinItem"],
+      "textures": {
+        "default": {
+          "texture": ["$"],
+          "colorMap": ["y"]
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.item.CoconutItem"],
+      "textures": {
+        "default": {
+          "texture": ["o"],
+          "colorMap": ["y"]
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.item.GunPowderItem"],
+      "textures": {
+        "default": {
+          "texture": ["*"],
+          "colorMap": ["d"]
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.item.TreeBranchItem"],
+      "textures": {
+        "default": {
+          "texture": ["/"],
+          "colorMap": ["o"]
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.building.FenceModel"],
+      "textures": {
+        "default": {
+          "texture": ["##", "##"],
+          "colorMap": ["yy", "yy"]
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.item.AxeItem"],
+      "textures": {
+        "default": {
+          "texture": ["(=)", "~|~", "~|~"],
+          "colorMap": ["ry~", "~b~", "~b~"],
+          "offsetX": 2,
+          "offsetY": 1
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.plant.BirchTreeModel"],
+      "textures": {
+        "default": {
+          "texture": ["~,%%&%,~", "%%&&%%&%", "&%%&%%&&", "'&%\\Y&%'", "~~~||~~~", "~~~||~~~"],
+          "colorMap": ["~glgglg~", "lgglggll", "glgglggl", "wglwylgw", "~~~oo~~~", "~~~oo~~~"],
+          "offsetX": 3,
+          "offsetY": 2
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.plant.CoconutTreeModel"],
+      "textures": {
+        "default": {
+          "texture": ["~~~,~~~", "~,/|\\,~", "~~ooo~~", "~~~|~~~", "~~~|~~~", "~~~|~~~"],
+          "colorMap": ["~~~g~~~", "~ggggg~", "~~yoy~~", "~~~o~~~", "~~~o~~~", "~~~o~~~"],
+          "offsetX": 3,
+          "offsetY": 2
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.plant.PineTreeModel"],
+      "textures": {
+        "default": {
+          "texture": ["~~/\\~~", "~/-_\\~", "/_--_\\", "/_-__\\", "/_||_\\", "~~||~~"],
+          "colorMap": ["~~lg~~", "~glgg~", "lggggl", "gllggg", "gloogl", "~~oo~~"],
+          "offsetX": 3,
+          "offsetY": 1
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.core.model.mob.character.PlayerModel"],
+      "textures": {
+        "default": {
+          "texture": ["~o~", "(|)", "/~\\"],
+          "colorMap": ["~y~", "rbr", "b~b"],
+          "offsetX": 0,
+          "offsetY": 0
+        },
+        "punchRight": {
+          "texture": ["~o~~", "(|\\*", "/~\\~"],
+          "colorMap": ["~y~~", "rbry", "b~b~"],
+          "offsetX": 0,
+          "offsetY": 0
+        },
+        "punchLeft": {
+          "texture": ["~~o~", "*/|)", "~/~\\"],
+          "colorMap": ["~~y~", "yrbr", "~b~b"],
+          "offsetX": 0,
+          "offsetY": 1
+        },
+        "axeRight_0": {
+          "texture": ["~o~_", "/|\\|", "/~\\~"],
+          "colorMap": ["~y~~", "rbr~", "b~b~"],
+          "offsetX": 0,
+          "offsetY": 0
+        },
+        "axeRight_1": {
+          "texture": ["~o~~~", "/|\\/'", "/~\\~~"],
+          "colorMap": ["~y~~~", "rbr~~", "b~b~~"],
+          "offsetX": 0,
+          "offsetY": 0
+        },
+        "axeRight_2": {
+          "texture": ["~o~~~", "/|\\__", "/~\\~'"],
+          "colorMap": ["~y~~~", "rbr~~", "b~b~~"],
+          "offsetX": 0,
+          "offsetY": 0
+        },
+        "axeLeft_0": {
+          "texture": ["_~o~", "|/|\\", "~/~\\"],
+          "colorMap": ["~~y~", "~rbr", "~b~b"],
+          "offsetX": 0,
+          "offsetY": 1
+        },
+        "axeLeft_1": {
+          "texture": ["~~~o~", "'\\/|\\", "~~/~\\"],
+          "colorMap": ["~~~y~", "~~rbr", "~~b~b"],
+          "offsetX": 0,
+          "offsetY": 2
+        },
+        "axeLeft_2": {
+          "texture": ["~~~o~", "__/|\\", "'~/~\\"],
+          "colorMap": ["~~~y~", "~~rbr", "~~b~b"],
+          "offsetX": 0,
+          "offsetY": 2
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.mob.CotMobModel"],
+      "textures": {
+        "default": {
+          "texture": ["'==0", "/\\/\\"],
+          "colorMap": ["rwwy", "wwww"],
+          "offsetX": 0,
+          "offsetY": 0
+        },
+        "flipped": {
+          "texture": ["0==`", "/\\/\\"],
+          "colorMap": ["ywwr", "wwww"],
+          "offsetX": 0,
+          "offsetY": 0
+        },
+        "attackRight_0": {
+          "texture": ["~~~~0", "'==/~", "/\\/\\~"],
+          "colorMap": ["~~~~y", "rwwy~", "wwww~"],
+          "offsetX": 1,
+          "offsetY": 0
+        },
+        "attackRight_1": {
+          "texture": ["'===0", "/\\/\\~"],
+          "colorMap": ["rwwyy", "wwww~"],
+          "offsetX": 0,
+          "offsetY": 0
+        },
+        "attackRight_2": {
+          "texture": ["'==\\~", "/\\/\\0"],
+          "colorMap": ["rwwy~", "wwwwy"],
+          "offsetX": 0,
+          "offsetY": 0
+        },
+        "attackLeft_0": {
+          "texture": ["0~~~~", "~\\==`", "~/\\/\\"],
+          "colorMap": ["y~~~~", "~ywwr", "~wwww"],
+          "offsetX": 1,
+          "offsetY": 0
+        },
+        "attackLeft_1": {
+          "texture": ["0===`", "~/\\/\\"],
+          "colorMap": ["yywwr", "~wwww"],
+          "offsetX": 0,
+          "offsetY": 0
+        },
+        "attackLeft_2": {
+          "texture": ["~/==`", "0/\\/\\"],
+          "colorMap": ["~ywwr", "ywwww"],
+          "offsetX": 0,
+          "offsetY": 0
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.mob.GoblinModel"],
+      "textures": {
+        "default": {
+          "texture": [">o:", "/|\\"],
+          "colorMap": ["glr", "ggg"],
+          "offsetX": 0,
+          "offsetY": 0
+        },
+        "flipped": {
+          "texture": [":o<", "/|\\"],
+          "colorMap": ["rlg", "ggg"],
+          "offsetX": 0,
+          "offsetY": 0
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.environment.ThickVineModel"],
+      "textures": {
+        "default": {
+          "texture": ["&%&", "%&%", "&%&"],
+          "colorMap": ["glg", "lgl", "glg"]
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.environment.BoulderModel"],
+      "textures": {
+        "default": {
+          "texture": ["▓▓▓", "▓▓▓", "▓▓▓"],
+          "colorMap": ["ddd", "ddd", "ddd"]
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.environment.BombTrapModel"],
+      "textures": {
+        "default": {
+          "texture": ["[!]"],
+          "colorMap": ["ryr"]
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.mob.projectile.BombModel"],
+      "textures": {
+        "frame_0": {
+          "texture": ["@"],
+          "colorMap": ["r"]
+        },
+        "frame_1": {
+          "texture": ["*"],
+          "colorMap": ["y"]
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.mob.projectile.FlyingWoodLogModel"],
+      "textures": {
+        "frame_0": {
+          "texture": ["="]
+        },
+        "frame_1": {
+          "texture": ["|"]
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.mob.projectile.FlyingDartModel"],
+      "textures": {
+        "frame_0": {
+          "texture": ["-"],
+          "colorMap": ["y"]
+        },
+        "frame_1": {
+          "texture": ["|"],
+          "colorMap": ["y"]
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.mob.BombGoblinModel"],
+      "textures": {
+        "default": {
+          "texture": [">@~", "/|\\"],
+          "colorMap": ["grr", "ggg"],
+          "offsetX": 0,
+          "offsetY": 0
+        },
+        "flipped": {
+          "texture": ["~@<", "/|\\"],
+          "colorMap": ["rrg", "ggg"],
+          "offsetX": 0,
+          "offsetY": 0
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.mob.RangeGoblinModel"],
+      "textures": {
+        "default": {
+          "texture": [">@-", "/|\\"],
+          "colorMap": ["glr", "ggg"],
+          "offsetX": 0,
+          "offsetY": 0
+        },
+        "flipped": {
+          "texture": ["-@<", "/|\\"],
+          "colorMap": ["rlg", "ggg"],
+          "offsetX": 0,
+          "offsetY": 0
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.plant.TreeModel"],
+      "textures": {
+        "default": {
+          "texture": ["~▒▒▒▒▒▒▒▒~", "▒▐▒▐▒▒▒▒▌▒", "~▒▀▄█▒▄▀▒~", "~~~~██~~~~", "~~~▄██▄~~~"],
+          "colorMap": ["~lgglgggl~", "glglggglgg", "~glglglgg~", "~~~~oo~~~~", "~~~oooo~~~"],
+          "offsetX": 0,
+          "offsetY": 2
+        },
+        "young": {
+          "texture": ["||"],
+          "colorMap": ["oo"],
+          "offsetX": -2,
+          "offsetY": 0
+        },
+        "middle": {
+          "texture": ["||", "||"],
+          "colorMap": ["oo", "oo"],
+          "offsetX": -1,
+          "offsetY": 0
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.core.model.building.ChestModel"],
+      "textures": {
+        "default": {
+          "texture": ["╔═╗", "╚◊╝"],
+          "colorMap": ["yyy", "yyy"],
+          "offsetX": -1,
+          "offsetY": 0
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.mob.character.GolemModel"],
+      "textures": {
+        "default": {
+          "texture": ["~o~", "(|)", "/~\\"],
+          "colorMap": ["~c~", "rwr", "b~b"],
+          "offsetX": 0,
+          "offsetY": 0
+        },
+        "punchRight": {
+          "texture": ["~o~~", "(|\\*", "/~\\~"],
+          "colorMap": ["~c~~", "rwry", "b~b~"],
+          "offsetX": 0,
+          "offsetY": 0
+        },
+        "punchLeft": {
+          "texture": ["~~o~", "*/|)", "~/~\\"],
+          "colorMap": ["~~c~", "yrwr", "~b~b"],
+          "offsetX": 0,
+          "offsetY": 1
+        },
+        "axeRight_0": {
+          "texture": ["~o~_", "/|\\|", "/~\\~"],
+          "colorMap": ["~c~~", "rwr~", "b~b~"],
+          "offsetX": 0,
+          "offsetY": 0
+        },
+        "axeRight_1": {
+          "texture": ["~o~~~", "/|\\/'", "/~\\~~"],
+          "colorMap": ["~c~~~", "rwr~~", "b~b~~"],
+          "offsetX": 0,
+          "offsetY": 0
+        },
+        "axeRight_2": {
+          "texture": ["~o~~~", "/|\\__", "/~\\~'"],
+          "colorMap": ["~c~~~", "rwr~~", "b~b~~"],
+          "offsetX": 0,
+          "offsetY": 0
+        },
+        "axeLeft_0": {
+          "texture": ["_~o~", "|/|\\", "~/~\\"],
+          "colorMap": ["~~c~", "~rwr", "~b~b"],
+          "offsetX": 0,
+          "offsetY": 1
+        },
+        "axeLeft_1": {
+          "texture": ["~~~o~", "'\\/|\\", "~~/~\\"],
+          "colorMap": ["~~~c~", "~~rwr", "~~b~b"],
+          "offsetX": 0,
+          "offsetY": 2
+        },
+        "axeLeft_2": {
+          "texture": ["~~~o~", "__/|\\", "'~/~\\"],
+          "colorMap": ["~~~c~", "~~rwr", "~~b~b"],
+          "offsetX": 0,
+          "offsetY": 2
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.building.IronHorseModel"],
+      "textures": {
+        "default": {
+          "texture": ["~~~~▲~~~~", "~~~▓▓▓~~~", "~~▓███▓~~", "~▓█████▓~", "▓███████▓"],
+          "colorMap": ["~~~~y~~~~", "~~~oyo~~~", "~~oyyyo~~", "~oyyyyyo~", "oyyyyyyyo"],
+          "offsetX": 0,
+          "offsetY": 1
+        }
+      }
+    },
+    {
+      "modelClasses": [
+        "com.noiprocs.gameplay.model.building.PortalModel",
+        "com.noiprocs.gameplay.model.building.MazeExitPortalModel"
+      ],
+      "textures": {
+        "default": {
+          "texture": ["~╱~╲~", "│∙◊∙│", "│◊◊◊│", "│∙◊∙│", "~╲~╱~"],
+          "colorMap": ["~m~m~", "mcccm", "mcccm", "mcccm", "~m~m~"],
+          "offsetX": -1,
+          "offsetY": -1
+        }
+      }
+    }
+  ]
+}

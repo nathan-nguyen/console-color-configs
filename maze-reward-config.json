@@ -1,0 +1,41 @@
+{
+  "rewards": [
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.BootOfSpeedItem",
+      "amount": 1,
+      "baseChance": 0.4,
+      "chancePerDimension": 0.03,
+      "requiredAbsentItemClass": "com.noiprocs.gameplay.model.item.BootOfSpeedItem"
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.SummonCotMobRecipe",
+      "amount": 1,
+      "baseChance": 0.05,
+      "chancePerDimension": 0.02
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.SummonStoneGolemRecipe",
+      "amount": 1,
+      "baseChance": 0.05,
+      "chancePerDimension": 0.02
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.MysteriousGemItem",
+      "amount": 1,
+      "baseChance": 0.1,
+      "chancePerDimension": 0.0
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.GunPowderItem",
+      "amount": 1,
+      "baseChance": 0.1,
+      "chancePerDimension": 0.0
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.CacaoFruitItem",
+      "amount": 1,
+      "baseChance": 1.0,
+      "chancePerDimension": 0.0
+    }
+  ]
+}
