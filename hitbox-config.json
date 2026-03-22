@@ -152,6 +152,13 @@
       "mask": ["WALL", "PLAYER", "MOB"]
     },
     {
+      "modelClass": "com.noiprocs.gameplay.model.mob.RatModel",
+      "height": 200,
+      "width": 200,
+      "category": "MOB",
+      "mask": ["WALL", "PLAYER", "MOB"]
+    },
+    {
       "modelClass": "com.noiprocs.gameplay.model.environment.ThickVineModel",
       "height": "Config.MAZE_WALL_THICKNESS_HEIGHT",
       "width": "Config.MAZE_WALL_THICKNESS_WIDTH",
@@ -173,7 +180,14 @@
       "mask": ["WALL", "PLAYER", "MOB", "PROJECTILE"]
     },
     {
-      "modelClass": "com.noiprocs.core.model.building.ChestModel",
+      "modelClass": "com.noiprocs.gameplay.model.building.ChestModel",
+      "height": 500,
+      "width": 500,
+      "category": "WALL",
+      "mask": ["WALL"]
+    },
+    {
+      "modelClass": "com.noiprocs.core.model.building.InventoryBagModel",
       "height": 500,
       "width": 500,
       "category": "WALL",
@@ -183,6 +197,13 @@
       "modelClass": "com.noiprocs.gameplay.model.mob.character.GolemModel",
       "height": 450,
       "width": 450,
+      "category": "MOB",
+      "mask": ["WALL", "PLAYER", "MOB"]
+    },
+    {
+      "modelClass": "com.noiprocs.gameplay.model.mob.MerchantModel",
+      "height": 300,
+      "width": 300,
       "category": "MOB",
       "mask": ["WALL", "PLAYER", "MOB"]
     },

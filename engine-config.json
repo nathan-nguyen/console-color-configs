@@ -27,6 +27,7 @@
   "MARK_DIRTY_AMOUNT_BUFFER": 10,
   "CRAFTING_RECEIPT_CONFIG_FILE_NAME": "crafting-receipt-config.json",
   "WORLD_MODEL_GENERATOR_CLASS": "com.noiprocs.gameplay.world.HubWorldGenerator",
+  "SERVER_WORLD_STATE_CLASS": "com.noiprocs.gameplay.world.GameplayServerWorldState",
   "KRYO_CLASS_FILES": [
     "kryo-classes-core.json",
     "kryo-classes-gameplay.json"

@@ -370,6 +370,23 @@
       }
     },
     {
+      "modelClasses": ["com.noiprocs.gameplay.model.mob.RatModel"],
+      "textures": {
+        "default": {
+          "texture": [">~@", "~^~"],
+          "colorMap": ["~dd", "~d~"],
+          "offsetX": 0,
+          "offsetY": 0
+        },
+        "flipped": {
+          "texture": ["@~<", "~^~"],
+          "colorMap": ["dd~", "~d~"],
+          "offsetX": 0,
+          "offsetY": 0
+        }
+      }
+    },
+    {
       "modelClasses": ["com.noiprocs.gameplay.model.plant.TreeModel"],
       "textures": {
         "default": {
@@ -393,11 +410,22 @@
       }
     },
     {
-      "modelClasses": ["com.noiprocs.core.model.building.ChestModel"],
+      "modelClasses": ["com.noiprocs.gameplay.model.building.ChestModel"],
       "textures": {
         "default": {
           "texture": ["╔═╗", "╚◊╝"],
           "colorMap": ["yyy", "yyy"],
+          "offsetX": -1,
+          "offsetY": 0
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.core.model.building.InventoryBagModel"],
+      "textures": {
+        "default": {
+          "texture": ["~~~", "(~)", "~~~"],
+          "colorMap": ["~~~", "yyy", "~~~"],
           "offsetX": -1,
           "offsetY": 0
         }
@@ -484,6 +512,17 @@
           "colorMap": ["~m~m~", "mcccm", "mcccm", "mcccm", "~m~m~"],
           "offsetX": -1,
           "offsetY": -1
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.mob.MerchantModel"],
+      "textures": {
+        "default": {
+          "texture": ["_$_", "(@)", "/$\\"],
+          "colorMap": ["~y~", "ywy", "y~y"],
+          "offsetX": 0,
+          "offsetY": 0
         }
       }
     }

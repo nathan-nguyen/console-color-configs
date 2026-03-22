@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.AppleItem",
+      "buyPrice": 2,
+      "sellPrice": 1,
+      "stock": 20
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.WoodLogItem",
+      "buyPrice": 4,
+      "sellPrice": 1,
+      "stock": 10
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.SaplingItem",
+      "buyPrice": 3,
+      "sellPrice": 1,
+      "stock": 10
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.StoneAxeItem",
+      "buyPrice": 20,
+      "sellPrice": 10,
+      "stock": 2
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.BombItem",
+      "buyPrice": 8,
+      "sellPrice": 3,
+      "stock": 5
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.GunPowderItem",
+      "buyPrice": 5,
+      "sellPrice": 2,
+      "stock": 8
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.WaterBottleItem",
+      "buyPrice": 3,
+      "sellPrice": 1,
+      "stock": 10
+    }
+  ]
+}
