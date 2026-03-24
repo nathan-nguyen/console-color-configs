@@ -516,6 +516,17 @@
       }
     },
     {
+      "modelClasses": ["com.noiprocs.gameplay.model.building.ShrineModel"],
+      "textures": {
+        "default": {
+          "texture": ["~║~", "(◆)", "~║~"],
+          "colorMap": ["~m~", "mym", "~m~"],
+          "offsetX": 0,
+          "offsetY": 0
+        }
+      }
+    },
+    {
       "modelClasses": ["com.noiprocs.gameplay.model.mob.MerchantModel"],
       "textures": {
         "default": {

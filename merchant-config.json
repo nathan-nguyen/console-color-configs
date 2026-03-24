@@ -7,10 +7,94 @@
       "stock": 20
     },
     {
-      "itemClass": "com.noiprocs.gameplay.model.item.WoodLogItem",
-      "buyPrice": 4,
+      "itemClass": "com.noiprocs.gameplay.model.item.AxeItem",
+      "buyPrice": 10,
+      "sellPrice": 5,
+      "stock": 0
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.BlastStridersItem",
+      "buyPrice": 50,
+      "sellPrice": 25,
+      "stock": 0
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.BombItem",
+      "buyPrice": 8,
+      "sellPrice": 3,
+      "stock": 5
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.BootOfSpeedItem",
+      "buyPrice": 50,
+      "sellPrice": 25,
+      "stock": 1
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.BootOfTravelItem",
+      "buyPrice": 60,
+      "sellPrice": 30,
+      "stock": 0
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.CacaoFruitItem",
+      "buyPrice": 3,
       "sellPrice": 1,
-      "stock": 10
+      "stock": 0
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.CacaoPotionItem",
+      "buyPrice": 12,
+      "sellPrice": 5,
+      "stock": 0
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.ChestItem",
+      "buyPrice": 15,
+      "sellPrice": 7,
+      "stock": 0
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.CoconutItem",
+      "buyPrice": 5,
+      "sellPrice": 2,
+      "stock": 0
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.FenceItem",
+      "buyPrice": 4,
+      "sellPrice": 2,
+      "stock": 0
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.GoldCoinItem",
+      "buyPrice": 1,
+      "sellPrice": 1,
+      "stock": 0
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.GunPowderItem",
+      "buyPrice": 5,
+      "sellPrice": 2,
+      "stock": 8
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.MysteriousGemItem",
+      "buyPrice": 20,
+      "sellPrice": 8,
+      "stock": 0
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.PebbleItem",
+      "buyPrice": 2,
+      "sellPrice": 1,
+      "stock": 0
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.PickAxeItem",
+      "buyPrice": 12,
+      "sellPrice": 5,
+      "stock": 0
     },
     {
       "itemClass": "com.noiprocs.gameplay.model.item.SaplingItem",
@@ -25,20 +109,44 @@
       "stock": 2
     },
     {
-      "itemClass": "com.noiprocs.gameplay.model.item.BombItem",
-      "buyPrice": 8,
-      "sellPrice": 3,
-      "stock": 5
+      "itemClass": "com.noiprocs.gameplay.model.item.SummonCotMobItem",
+      "buyPrice": 20,
+      "sellPrice": 8,
+      "stock": 0
     },
     {
-      "itemClass": "com.noiprocs.gameplay.model.item.GunPowderItem",
-      "buyPrice": 5,
-      "sellPrice": 2,
-      "stock": 8
+      "itemClass": "com.noiprocs.gameplay.model.item.SummonCotMobRecipe",
+      "buyPrice": 10,
+      "sellPrice": 5,
+      "stock": 0
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.SummonStoneGolemItem",
+      "buyPrice": 35,
+      "sellPrice": 15,
+      "stock": 0
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.SummonStoneGolemRecipe",
+      "buyPrice": 15,
+      "sellPrice": 7,
+      "stock": 0
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.TreeBranchItem",
+      "buyPrice": 2,
+      "sellPrice": 1,
+      "stock": 0
     },
     {
       "itemClass": "com.noiprocs.gameplay.model.item.WaterBottleItem",
       "buyPrice": 3,
+      "sellPrice": 1,
+      "stock": 10
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.WoodLogItem",
+      "buyPrice": 4,
       "sellPrice": 1,
       "stock": 10
     }

@@ -121,21 +121,21 @@
       "height": 450,
       "width": 450,
       "category": "PROJECTILE",
-      "mask": ["MASK_ALL"]
+      "mask": ["WALL", "PLAYER", "MOB", "PROJECTILE"]
     },
     {
       "modelClass": "com.noiprocs.gameplay.model.mob.projectile.FlyingWoodLogModel",
       "height": 100,
       "width": 100,
       "category": "PROJECTILE",
-      "mask": ["MASK_ALL"]
+      "mask": ["WALL", "PLAYER", "MOB", "PROJECTILE"]
     },
     {
       "modelClass": "com.noiprocs.gameplay.model.mob.projectile.FlyingDartModel",
       "height": 100,
       "width": 100,
       "category": "PROJECTILE",
-      "mask": ["MASK_ALL"]
+      "mask": ["WALL", "PLAYER", "MOB", "PROJECTILE"]
     },
     {
       "modelClass": "com.noiprocs.gameplay.model.mob.BombGoblinModel",
@@ -221,6 +221,13 @@
       ],
       "height": 800,
       "width": 800,
+      "category": "WALL",
+      "mask": ["WALL"]
+    },
+    {
+      "modelClass": "com.noiprocs.gameplay.model.building.ShrineModel",
+      "height": 600,
+      "width": 600,
       "category": "WALL",
       "mask": ["WALL"]
     }

@@ -36,6 +36,19 @@
       "amount": 1,
       "baseChance": 1.0,
       "chancePerDimension": 0.0
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.BlastStridersItem",
+      "amount": 1,
+      "baseChance": 0.01,
+      "chancePerDimension": 0.01
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.GoldCoinItem",
+      "amount": 0,
+      "maxAmount": 10,
+      "baseChance": 1.0,
+      "chancePerDimension": 0.0
     }
   ]
 }
