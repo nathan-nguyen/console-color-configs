@@ -41,7 +41,15 @@
       "itemClass": "com.noiprocs.gameplay.model.item.BlastStridersItem",
       "amount": 1,
       "baseChance": 0.01,
-      "chancePerDimension": 0.01
+      "chancePerDimension": 0.01,
+      "exclusiveTag": "rare_equipment"
+    },
+    {
+      "itemClass": "com.noiprocs.gameplay.model.item.MirrorShardItem",
+      "amount": 1,
+      "baseChance": 0.01,
+      "chancePerDimension": 0.01,
+      "exclusiveTag": "rare_equipment"
     },
     {
       "itemClass": "com.noiprocs.gameplay.model.item.GoldCoinItem",

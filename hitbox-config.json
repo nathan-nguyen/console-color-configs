@@ -15,6 +15,20 @@
       "mask": ["WALL", "PLAYER", "MOB"]
     },
     {
+      "modelClass": "com.noiprocs.gameplay.model.mob.MimicModel",
+      "height": 500,
+      "width": 500,
+      "category": "MOB",
+      "mask": ["WALL", "PLAYER", "MOB"]
+    },
+    {
+      "modelClass": "RevealedMimicHitbox",
+      "height": 500,
+      "width": 500,
+      "category": "MOB",
+      "mask": ["WALL", "PLAYER", "MOB"]
+    },
+    {
       "modelClass": "com.noiprocs.gameplay.model.mob.CotMobModel",
       "height": 400,
       "width": 400,
@@ -69,15 +83,16 @@
     },
     {
       "modelClasses": [
-        "com.noiprocs.gameplay.model.item.WoodLogItem",
-        "com.noiprocs.gameplay.model.item.SaplingItem",
         "com.noiprocs.gameplay.model.item.AppleItem",
-        "com.noiprocs.gameplay.model.item.PebbleItem",
-        "com.noiprocs.gameplay.model.item.WaterBottleItem",
-        "com.noiprocs.gameplay.model.item.MysteriousGemItem",
-        "com.noiprocs.gameplay.model.item.GoldCoinItem",
+        "com.noiprocs.gameplay.model.item.CacaoFruitItem",
         "com.noiprocs.gameplay.model.item.CoconutItem",
-        "com.noiprocs.gameplay.model.item.GunPowderItem"
+        "com.noiprocs.gameplay.model.item.GoldCoinItem",
+        "com.noiprocs.gameplay.model.item.GunPowderItem",
+        "com.noiprocs.gameplay.model.item.MysteriousGemItem",
+        "com.noiprocs.gameplay.model.item.PebbleItem",
+        "com.noiprocs.gameplay.model.item.SaplingItem",
+        "com.noiprocs.gameplay.model.item.WaterBottleItem",
+        "com.noiprocs.gameplay.model.item.WoodLogItem"
       ],
       "height": 350,
       "width": 350,
@@ -204,6 +219,13 @@
       "modelClass": "com.noiprocs.gameplay.model.mob.MerchantModel",
       "height": 300,
       "width": 300,
+      "category": "MOB",
+      "mask": ["WALL", "PLAYER", "MOB"]
+    },
+    {
+      "modelClass": "com.noiprocs.gameplay.model.mob.BlackSmithModel",
+      "height": 600,
+      "width": 600,
       "category": "MOB",
       "mask": ["WALL", "PLAYER", "MOB"]
     },

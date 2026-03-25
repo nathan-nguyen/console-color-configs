@@ -1,0 +1,16 @@
+{
+  "recipes": [
+    {
+      "id": "blast_striders_reflect",
+      "inputItemClass": "com.noiprocs.gameplay.model.item.BlastStridersItem",
+      "materials": [
+        {"itemClass": "com.noiprocs.gameplay.model.item.MirrorShardItem", "amount": 1},
+        {"itemClass": "com.noiprocs.gameplay.model.item.GunPowderItem", "amount": 1}
+      ],
+      "goldCost": 30,
+      "outputItemClass": "com.noiprocs.gameplay.model.item.BlastStridersItem",
+      "outputAmount": 1,
+      "variantName": "REFLECT"
+    }
+  ]
+}

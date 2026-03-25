@@ -421,6 +421,23 @@
       }
     },
     {
+      "modelClasses": ["com.noiprocs.gameplay.model.mob.MimicModel"],
+      "textures": {
+        "default": {
+          "texture": ["╔═╗", "╚◊╝"],
+          "colorMap": ["yyy", "yyy"],
+          "offsetX": -1,
+          "offsetY": 0
+        },
+        "revealed": {
+          "texture": ["╔>╗", "╚~╝"],
+          "colorMap": ["rrr", "rrr"],
+          "offsetX": -1,
+          "offsetY": 0
+        }
+      }
+    },
+    {
       "modelClasses": ["com.noiprocs.core.model.building.InventoryBagModel"],
       "textures": {
         "default": {
@@ -532,6 +549,17 @@
         "default": {
           "texture": ["_$_", "(@)", "/$\\"],
           "colorMap": ["~y~", "ywy", "y~y"],
+          "offsetX": 0,
+          "offsetY": 0
+        }
+      }
+    },
+    {
+      "modelClasses": ["com.noiprocs.gameplay.model.mob.BlackSmithModel"],
+      "textures": {
+        "default": {
+          "texture": ["_⚒_", "(@)", "/=\\"],
+          "colorMap": ["~r~", "rwr", "r~r"],
           "offsetX": 0,
           "offsetY": 0
         }
