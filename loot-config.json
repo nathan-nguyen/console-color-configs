@@ -1,0 +1,109 @@
+{
+  "lootTables": {
+    "com.noiprocs.gameplay.model.mob.GoblinModel": [
+      {
+        "itemClass": "com.noiprocs.gameplay.model.item.WaterBottleItem",
+        "amount": 1,
+        "chance": 0.333
+      },
+      {
+        "itemClass": "com.noiprocs.gameplay.model.item.GoldCoinItem",
+        "amount": 0,
+        "maxAmount": 3,
+        "chance": 1.0
+      }
+    ],
+    "com.noiprocs.gameplay.model.mob.RangeGoblinModel": [
+      {
+        "itemClass": "com.noiprocs.gameplay.model.item.WaterBottleItem",
+        "amount": 1,
+        "chance": 0.333
+      },
+      {
+        "itemClass": "com.noiprocs.gameplay.model.item.GoldCoinItem",
+        "amount": 0,
+        "maxAmount": 3,
+        "chance": 1.0
+      }
+    ],
+    "com.noiprocs.gameplay.model.mob.RatModel": [
+      {
+        "itemClass": "com.noiprocs.gameplay.model.item.GoldCoinItem",
+        "amount": 1,
+        "maxAmount": 3,
+        "chance": 1.0
+      }
+    ],
+    "com.noiprocs.gameplay.model.plant.CoconutTreeModel": [
+      {
+        "itemClass": "com.noiprocs.gameplay.model.item.CoconutItem",
+        "amount": 1,
+        "chance": 1.0,
+        "range": 1000
+      }
+    ],
+    "com.noiprocs.gameplay.model.environment.BoulderModel": [
+      {
+        "itemClass": "com.noiprocs.gameplay.model.item.PebbleItem",
+        "amount": 1,
+        "chance": 1.0
+      }
+    ],
+    "com.noiprocs.gameplay.model.environment.ThickVineModel": [
+      {
+        "itemClass": "com.noiprocs.gameplay.model.item.TreeBranchItem",
+        "amount": 1,
+        "maxAmount": 2,
+        "chance": 1.0
+      }
+    ],
+    "com.noiprocs.gameplay.model.plant.TreeModel:old": [
+      {
+        "itemClass": "com.noiprocs.gameplay.model.item.WoodLogItem",
+        "amount": 1,
+        "chance": 1.0,
+        "range": 1000
+      },
+      {
+        "itemClass": "com.noiprocs.gameplay.model.item.WoodLogItem",
+        "amount": 1,
+        "chance": 1.0,
+        "range": 1000
+      },
+      {
+        "itemClass": "com.noiprocs.gameplay.model.item.AppleItemModel",
+        "directModel": true,
+        "chance": 1.0,
+        "range": 1000
+      },
+      {
+        "itemClass": "com.noiprocs.gameplay.model.item.SaplingItem",
+        "amount": 1,
+        "chance": 0.05,
+        "range": 1000,
+        "scatter": 5
+      }
+    ],
+    "com.noiprocs.gameplay.model.plant.TreeModel:middle": [
+      {
+        "itemClass": "com.noiprocs.gameplay.model.item.WoodLogItem",
+        "amount": 1,
+        "chance": 1.0,
+        "range": 1000
+      }
+    ],
+    "com.noiprocs.gameplay.model.mob.BombGoblinModel": [
+      {
+        "itemClass": "com.noiprocs.gameplay.model.item.GunPowderItem",
+        "amount": 1,
+        "chance": 0.5
+      },
+      {
+        "itemClass": "com.noiprocs.gameplay.model.item.GoldCoinItem",
+        "amount": 0,
+        "maxAmount": 3,
+        "chance": 1.0
+      }
+    ]
+  }
+}
